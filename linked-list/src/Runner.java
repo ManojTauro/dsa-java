@@ -4,10 +4,17 @@ public class Runner {
 
         System.out.println("START");
 
-        list.addAtHead(1);
-        list.addAtTail(3);
-        list.addAtIndex(1,2);
+        list.addAtHead(2);
         list.deleteAtIndex(1);
+        list.addAtHead(2);
+        list.addAtHead(7);
+        list.addAtHead(3);
+        list.addAtHead(2);
+        list.addAtHead(5);
+        list.addAtTail(5);
+        System.out.println(list.get(5));
+        list.deleteAtIndex(6);
+        list.deleteAtIndex(4);
 
         System.out.println("END");
     }
