@@ -1,4 +1,4 @@
-package com.manoj.fib;
+package com.manoj.memoization.fib;
 
 import java.util.HashMap;
 import java.util.Map;
