@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/binary-tree/binary-tree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary-tree/src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary-tree/src/TreeIncludes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/allconstruct/AllConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/bestsum/BestSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/canconstruct/CanConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/countconstruct/CountConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/gridtraveller/GridTraveller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/gridtraveller/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/howsum/HowSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/CanSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/fib/Fib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/gridtraveller/GridTraveller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary-tree/src/MaxPathToLeafSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary-tree/src/NumberNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary-tree/src/TreeMinimum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/mincostclimbingstairs/MinCostClimbingStairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/fib/Fib.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/fib/Fib.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +47,7 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeIncludes">
-    <configuration name="AllConstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.allconstruct.AllConstruct" />
-      <module name="dynamic-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.manoj.memoization.allconstruct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxPathToLeafSum">
     <configuration name="CanSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.manoj.tabulation.CanSum" />
       <module name="dynamic-programming" />
@@ -85,25 +61,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.tabulation.fib.Fib" />
-      <module name="dynamic-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.manoj.tabulation.fib.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MaxPathToLeafSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxPathToLeafSum" />
+      <module name="binary-tree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridTraveller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.tabulation.gridtraveller.GridTraveller" />
+    <configuration name="MinCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.tabulation.mincostclimbingstairs.MinCostClimbingStairs" />
       <module name="dynamic-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.manoj.tabulation.gridtraveller.*" />
+          <option name="PATTERN" value="com.manoj.tabulation.mincostclimbingstairs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +88,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeMinimum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeMinimum" />
+      <module name="binary-tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxPathToLeafSum" />
+        <item itemvalue="Application.TreeMinimum" />
+        <item itemvalue="Application.MinCostClimbingStairs" />
         <item itemvalue="Application.TreeIncludes" />
         <item itemvalue="Application.CanSum" />
-        <item itemvalue="Application.GridTraveller" />
-        <item itemvalue="Application.Fib" />
-        <item itemvalue="Application.AllConstruct" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +137,9 @@
       <workItem from="1660094691927" duration="5716000" />
       <workItem from="1660275643825" duration="1611000" />
       <workItem from="1660284642763" duration="10000" />
-      <workItem from="1660699725225" duration="1216000" />
+      <workItem from="1660699725225" duration="1862000" />
+      <workItem from="1660706212496" duration="1117000" />
+      <workItem from="1660786794078" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with array and linked list">
       <created>1658470887525</created>
@@ -183,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659665632648</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented Fibonacci using DP and Recursion">
+      <created>1660700999998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660700999998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,58 +189,58 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="590" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.816@0.0.1536.816" timestamp="1660095367376" />
-    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1659665632077">
+    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1660700998748">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1659665632077" />
+    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1660700998748" />
     <state width="425" height="466" key="DebuggerActiveHint" timestamp="1659666256356">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="425" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1659666256356" />
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom" timestamp="1660700959674">
+    <state width="1492" height="208" key="GridCell.Tab.0.bottom" timestamp="1660788725566">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660700959674" />
-    <state width="1492" height="208" key="GridCell.Tab.0.center" timestamp="1660700959674">
+    <state width="1492" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660788725566" />
+    <state width="1492" height="208" key="GridCell.Tab.0.center" timestamp="1660788725566">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1660700959674" />
-    <state width="1492" height="208" key="GridCell.Tab.0.left" timestamp="1660700959674">
+    <state width="1492" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1660788725566" />
+    <state width="1492" height="208" key="GridCell.Tab.0.left" timestamp="1660788725566">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1660700959674" />
-    <state width="1492" height="208" key="GridCell.Tab.0.right" timestamp="1660700959674">
+    <state width="1492" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1660788725566" />
+    <state width="1492" height="208" key="GridCell.Tab.0.right" timestamp="1660788725566">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1660700959674" />
-    <state width="1492" height="258" key="GridCell.Tab.1.bottom" timestamp="1660106406845">
+    <state width="1492" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1660788725566" />
+    <state width="1492" height="258" key="GridCell.Tab.1.bottom" timestamp="1660708093282">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660106406845" />
-    <state width="1492" height="258" key="GridCell.Tab.1.center" timestamp="1660106406844">
+    <state width="1492" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660708093282" />
+    <state width="1492" height="258" key="GridCell.Tab.1.center" timestamp="1660708093282">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1660106406844" />
-    <state width="1492" height="258" key="GridCell.Tab.1.left" timestamp="1660106406844">
+    <state width="1492" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1660708093282" />
+    <state width="1492" height="258" key="GridCell.Tab.1.left" timestamp="1660708093282">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1660106406844" />
-    <state width="1492" height="258" key="GridCell.Tab.1.right" timestamp="1660106406844">
+    <state width="1492" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1660708093282" />
+    <state width="1492" height="258" key="GridCell.Tab.1.right" timestamp="1660708093282">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1660106406844" />
+    <state width="1492" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1660708093282" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1659418581028">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1659418581028" />
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1659665634875">
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1660701001942">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1659665634875" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1660284646932">
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1660701001942" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1660786899115">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1660284646932" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1660786899115" />
     <state x="499" y="165" key="extract.method.dialog" timestamp="1659580228359">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -285,6 +271,11 @@
           <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/fib/Fib.java</url>
           <line>12</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/mincostclimbingstairs/MinCostClimbingStairs.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
