@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/binary-tree/src/MaxPathToLeafSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary-tree/src/NumberNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary-tree/src/TreeMinimum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/mincostclimbingstairs/MinCostClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/houserobber2/HouseRobber2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +44,13 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxPathToLeafSum">
-    <configuration name="CanSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.tabulation.CanSum" />
+  <component name="RunManager" selected="Application.HouseRobber2">
+    <configuration name="HouseRobber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.houserobber2.HouseRobber2" />
       <module name="dynamic-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.manoj.tabulation.*" />
+          <option name="PATTERN" value="com.manoj.memoization.houserobber2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HouseRobber2" />
         <item itemvalue="Application.MaxPathToLeafSum" />
         <item itemvalue="Application.TreeMinimum" />
         <item itemvalue="Application.MinCostClimbingStairs" />
         <item itemvalue="Application.TreeIncludes" />
-        <item itemvalue="Application.CanSum" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +136,8 @@
       <workItem from="1660284642763" duration="10000" />
       <workItem from="1660699725225" duration="1862000" />
       <workItem from="1660706212496" duration="1117000" />
-      <workItem from="1660786794078" duration="1654000" />
+      <workItem from="1660786794078" duration="2293000" />
+      <workItem from="1661142682579" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with array and linked list">
       <created>1658470887525</created>
@@ -169,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660700999998</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented binary tree problems">
+      <created>1660788762434</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660788762435</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +183,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit with array and linked list" />
     <MESSAGE value="Implemented Fibonacci using DP and Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Fibonacci using DP and Recursion" />
+    <MESSAGE value="Implemented binary tree problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented binary tree problems" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1660700003776">
@@ -189,58 +195,58 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="590" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.816@0.0.1536.816" timestamp="1660095367376" />
-    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1660700998748">
+    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1660788761775">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1660700998748" />
-    <state width="425" height="466" key="DebuggerActiveHint" timestamp="1659666256356">
+    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1660788761775" />
+    <state width="425" height="466" key="DebuggerActiveHint" timestamp="1661143979802">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="425" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1659666256356" />
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom" timestamp="1660788725566">
+    <state width="425" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1661143979802" />
+    <state width="1492" height="208" key="GridCell.Tab.0.bottom" timestamp="1661145120839">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660788725566" />
-    <state width="1492" height="208" key="GridCell.Tab.0.center" timestamp="1660788725566">
+    <state width="1492" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1661145120839" />
+    <state width="1492" height="208" key="GridCell.Tab.0.center" timestamp="1661145120839">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1660788725566" />
-    <state width="1492" height="208" key="GridCell.Tab.0.left" timestamp="1660788725566">
+    <state width="1492" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1661145120839" />
+    <state width="1492" height="208" key="GridCell.Tab.0.left" timestamp="1661145120838">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1660788725566" />
-    <state width="1492" height="208" key="GridCell.Tab.0.right" timestamp="1660788725566">
+    <state width="1492" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1661145120838" />
+    <state width="1492" height="208" key="GridCell.Tab.0.right" timestamp="1661145120839">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1660788725566" />
-    <state width="1492" height="258" key="GridCell.Tab.1.bottom" timestamp="1660708093282">
+    <state width="1492" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1661145120839" />
+    <state width="1492" height="258" key="GridCell.Tab.1.bottom" timestamp="1661144410264">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1660708093282" />
-    <state width="1492" height="258" key="GridCell.Tab.1.center" timestamp="1660708093282">
+    <state width="1492" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1661144410264" />
+    <state width="1492" height="258" key="GridCell.Tab.1.center" timestamp="1661144410264">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1660708093282" />
-    <state width="1492" height="258" key="GridCell.Tab.1.left" timestamp="1660708093282">
+    <state width="1492" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1661144410264" />
+    <state width="1492" height="258" key="GridCell.Tab.1.left" timestamp="1661144410264">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1660708093282" />
-    <state width="1492" height="258" key="GridCell.Tab.1.right" timestamp="1660708093282">
+    <state width="1492" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1661144410264" />
+    <state width="1492" height="258" key="GridCell.Tab.1.right" timestamp="1661144410264">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1660708093282" />
+    <state width="1492" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1661144410264" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1659418581028">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1659418581028" />
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1660701001942">
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1660788765474">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1660701001942" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1660786899115">
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1660788765474" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1661142684174">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1660786899115" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1661142684174" />
     <state x="499" y="165" key="extract.method.dialog" timestamp="1659580228359">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -276,6 +282,26 @@
           <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/mincostclimbingstairs/MinCostClimbingStairs.java</url>
           <line>24</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/houserobber2/HouseRobber2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/houserobber2/HouseRobber2.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/houserobber2/HouseRobber2.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/houserobber2/HouseRobber2.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
