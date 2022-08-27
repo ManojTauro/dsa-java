@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/houserobber2/HouseRobber2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/substring/LongestCommonSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/subsequences/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/substring/LongestCommonSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +46,52 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HouseRobber2">
+  <component name="RunManager" selected="Application.LongestCommonSubstring (1)">
     <configuration name="HouseRobber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.houserobber2.HouseRobber2" />
       <module name="dynamic-programming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.manoj.memoization.houserobber2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.tabulation.subsequences.LongestCommonSubsequence" />
+      <module name="dynamic-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manoj.tabulation.subsequences.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonSubstring (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.substring.LongestCommonSubstring" />
+      <module name="dynamic-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manoj.memoization.substring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.tabulation.substring.LongestCommonSubstring" />
+      <module name="dynamic-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manoj.tabulation.substring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,40 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.tabulation.mincostclimbingstairs.MinCostClimbingStairs" />
-      <module name="dynamic-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.manoj.tabulation.mincostclimbingstairs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeIncludes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeIncludes" />
-      <module name="binary-tree" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeMinimum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeMinimum" />
-      <module name="binary-tree" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonSubstring (1)" />
+        <item itemvalue="Application.LongestCommonSubstring" />
+        <item itemvalue="Application.LongestCommonSubsequence" />
         <item itemvalue="Application.HouseRobber2" />
         <item itemvalue="Application.MaxPathToLeafSum" />
-        <item itemvalue="Application.TreeMinimum" />
-        <item itemvalue="Application.MinCostClimbingStairs" />
-        <item itemvalue="Application.TreeIncludes" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +151,9 @@
       <workItem from="1660699725225" duration="1862000" />
       <workItem from="1660706212496" duration="1117000" />
       <workItem from="1660786794078" duration="2293000" />
-      <workItem from="1661142682579" duration="2421000" />
+      <workItem from="1661142682579" duration="3727000" />
+      <workItem from="1661306507970" duration="3470000" />
+      <workItem from="1661572022919" duration="3388000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with array and linked list">
       <created>1658470887525</created>
@@ -174,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660788762435</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented House robber 2">
+      <created>1661145147620</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661145147620</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +207,8 @@
     <MESSAGE value="Initial commit with array and linked list" />
     <MESSAGE value="Implemented Fibonacci using DP and Recursion" />
     <MESSAGE value="Implemented binary tree problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented binary tree problems" />
+    <MESSAGE value="Implemented House robber 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented House robber 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1660700003776">
@@ -195,58 +219,58 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="590" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.816@0.0.1536.816" timestamp="1660095367376" />
-    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1660788761775">
+    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1661145146633">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1660788761775" />
+    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1661145146633" />
     <state width="425" height="466" key="DebuggerActiveHint" timestamp="1661143979802">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="425" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1661143979802" />
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom" timestamp="1661145120839">
+    <state width="1492" height="208" key="GridCell.Tab.0.bottom" timestamp="1661576023098">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1661145120839" />
-    <state width="1492" height="208" key="GridCell.Tab.0.center" timestamp="1661145120839">
+    <state width="1492" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1661576023098" />
+    <state width="1492" height="208" key="GridCell.Tab.0.center" timestamp="1661576023098">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1661145120839" />
-    <state width="1492" height="208" key="GridCell.Tab.0.left" timestamp="1661145120838">
+    <state width="1492" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1661576023098" />
+    <state width="1492" height="208" key="GridCell.Tab.0.left" timestamp="1661576023098">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1661145120838" />
-    <state width="1492" height="208" key="GridCell.Tab.0.right" timestamp="1661145120839">
+    <state width="1492" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1661576023098" />
+    <state width="1492" height="208" key="GridCell.Tab.0.right" timestamp="1661576023098">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1661145120839" />
-    <state width="1492" height="258" key="GridCell.Tab.1.bottom" timestamp="1661144410264">
+    <state width="1492" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1661576023098" />
+    <state width="1492" height="182" key="GridCell.Tab.1.bottom" timestamp="1661575819203">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1661144410264" />
-    <state width="1492" height="258" key="GridCell.Tab.1.center" timestamp="1661144410264">
+    <state width="1492" height="182" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1661575819203" />
+    <state width="1492" height="182" key="GridCell.Tab.1.center" timestamp="1661575819203">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1661144410264" />
-    <state width="1492" height="258" key="GridCell.Tab.1.left" timestamp="1661144410264">
+    <state width="1492" height="182" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1661575819203" />
+    <state width="1492" height="182" key="GridCell.Tab.1.left" timestamp="1661575819202">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1661144410264" />
-    <state width="1492" height="258" key="GridCell.Tab.1.right" timestamp="1661144410264">
+    <state width="1492" height="182" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1661575819202" />
+    <state width="1492" height="182" key="GridCell.Tab.1.right" timestamp="1661575819203">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1661144410264" />
+    <state width="1492" height="182" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1661575819203" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1659418581028">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1659418581028" />
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1660788765474">
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1661145149858">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1660788765474" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1661142684174">
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1661145149858" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1661572030897">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1661142684174" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1661572030897" />
     <state x="499" y="165" key="extract.method.dialog" timestamp="1659580228359">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
