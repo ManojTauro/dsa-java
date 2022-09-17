@@ -1,6 +1,8 @@
 package com.manoj.memoization.substring;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 //https://stackoverflow.com/questions/30859547/dp-memoized-approach-for-longest-common-substring
 public class LongestCommonSubstring {
@@ -11,6 +13,7 @@ public class LongestCommonSubstring {
     public static void main(String[] args) {
         dp = new int[s1.length() + 1][s2.length() + 1];
 
+        Set<String> s = new HashSet<>();
         for(int[] a: dp)
             Arrays.fill(a, -1);
 

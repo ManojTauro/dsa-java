@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/substring/LongestCommonSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/subsequences/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/substring/LongestCommonSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/String.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/src/StringPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/FrequentDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/TwoSumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/twosum/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/substring/LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack/src/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two-pointer/src/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/two-pointer/two-pointer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/howsum/HowSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/howsum/HowSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/substring/LongestCommonSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/substring/LongestCommonSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +56,20 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonSubstring (1)">
-    <configuration name="HouseRobber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.houserobber2.HouseRobber2" />
+  <component name="RunManager" selected="Application.FrequentDigit">
+    <configuration name="FrequentDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FrequentDigit" />
+      <module name="array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HowSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.howsum.HowSum" />
       <module name="dynamic-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.manoj.memoization.houserobber2.*" />
+          <option name="PATTERN" value="com.manoj.memoization.howsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.tabulation.subsequences.LongestCommonSubsequence" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.twosum.TwoSum" />
       <module name="dynamic-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.manoj.tabulation.subsequences.*" />
+          <option name="PATTERN" value="com.manoj.memoization.twosum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubstring (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.substring.LongestCommonSubstring" />
+    <configuration name="TwoSumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.TwoSumArray" />
       <module name="dynamic-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.manoj.memoization.substring.*" />
+          <option name="PATTERN" value="com.manoj.memoization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,33 +103,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.tabulation.substring.LongestCommonSubstring" />
-      <module name="dynamic-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.manoj.tabulation.substring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxPathToLeafSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxPathToLeafSum" />
-      <module name="binary-tree" />
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidParentheses" />
+      <module name="stack" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestCommonSubstring (1)" />
-        <item itemvalue="Application.LongestCommonSubstring" />
-        <item itemvalue="Application.LongestCommonSubsequence" />
-        <item itemvalue="Application.HouseRobber2" />
-        <item itemvalue="Application.MaxPathToLeafSum" />
+        <item itemvalue="Application.FrequentDigit" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.HowSum" />
+        <item itemvalue="Application.TwoSumArray" />
+        <item itemvalue="Application.ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +157,20 @@
       <workItem from="1660786794078" duration="2293000" />
       <workItem from="1661142682579" duration="3727000" />
       <workItem from="1661306507970" duration="3470000" />
-      <workItem from="1661572022919" duration="3388000" />
+      <workItem from="1661572022919" duration="4663000" />
+      <workItem from="1661689185123" duration="13000" />
+      <workItem from="1661744081593" duration="2731000" />
+      <workItem from="1661937164173" duration="17000" />
+      <workItem from="1661994444672" duration="1823000" />
+      <workItem from="1662083252780" duration="4926000" />
+      <workItem from="1662171116538" duration="1430000" />
+      <workItem from="1662257396092" duration="2345000" />
+      <workItem from="1662429914067" duration="1593000" />
+      <workItem from="1662516070028" duration="1359000" />
+      <workItem from="1663036662078" duration="630000" />
+      <workItem from="1663330917525" duration="613000" />
+      <workItem from="1663381560254" duration="4786000" />
+      <workItem from="1663401535612" duration="2696000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with array and linked list">
       <created>1658470887525</created>
@@ -197,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661145147620</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implemented House robber 2">
+      <created>1661576034817</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661576034817</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,66 +243,70 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="590" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.816@0.0.1536.816" timestamp="1660095367376" />
-    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1661145146633">
+    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1661576034176">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1661145146633" />
-    <state width="425" height="466" key="DebuggerActiveHint" timestamp="1661143979802">
+    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1661576034176" />
+    <state width="433" height="466" key="DebuggerActiveHint" timestamp="1663386593009">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="425" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1661143979802" />
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom" timestamp="1661576023098">
+    <state width="433" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1663386593009" />
+    <state width="1492" height="143" key="GridCell.Tab.0.bottom" timestamp="1663410169060">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1661576023098" />
-    <state width="1492" height="208" key="GridCell.Tab.0.center" timestamp="1661576023098">
+    <state width="1492" height="143" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1663410169060" />
+    <state width="1492" height="143" key="GridCell.Tab.0.center" timestamp="1663410169060">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1661576023098" />
-    <state width="1492" height="208" key="GridCell.Tab.0.left" timestamp="1661576023098">
+    <state width="1492" height="143" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1663410169060" />
+    <state width="1492" height="143" key="GridCell.Tab.0.left" timestamp="1663410169059">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1661576023098" />
-    <state width="1492" height="208" key="GridCell.Tab.0.right" timestamp="1661576023098">
+    <state width="1492" height="143" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1663410169059" />
+    <state width="1492" height="143" key="GridCell.Tab.0.right" timestamp="1663410169060">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1661576023098" />
-    <state width="1492" height="182" key="GridCell.Tab.1.bottom" timestamp="1661575819203">
+    <state width="1492" height="143" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1663410169060" />
+    <state width="1492" height="218" key="GridCell.Tab.1.bottom" timestamp="1663409635262">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="182" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1661575819203" />
-    <state width="1492" height="182" key="GridCell.Tab.1.center" timestamp="1661575819203">
+    <state width="1492" height="218" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1663409635262" />
+    <state width="1492" height="218" key="GridCell.Tab.1.center" timestamp="1663409635262">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="182" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1661575819203" />
-    <state width="1492" height="182" key="GridCell.Tab.1.left" timestamp="1661575819202">
+    <state width="1492" height="218" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1663409635262" />
+    <state width="1492" height="218" key="GridCell.Tab.1.left" timestamp="1663409635262">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="182" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1661575819202" />
-    <state width="1492" height="182" key="GridCell.Tab.1.right" timestamp="1661575819203">
+    <state width="1492" height="218" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1663409635262" />
+    <state width="1492" height="218" key="GridCell.Tab.1.right" timestamp="1663409635262">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="182" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1661575819203" />
+    <state width="1492" height="218" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1663409635262" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1659418581028">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1659418581028" />
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1661145149858">
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1661576036839">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1661145149858" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1661572030897">
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1661576036839" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1663401535277">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1661572030897" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1663401535277" />
     <state x="499" y="165" key="extract.method.dialog" timestamp="1659580228359">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="499" y="165" key="extract.method.dialog/0.0.1536.816@0.0.1536.816" timestamp="1659580228359" />
-    <state x="209" y="30" key="new project wizard" timestamp="1660699968023">
+    <state x="399" y="105" width="738" height="606" key="find.popup" timestamp="1661581888110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="209" y="30" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1660699968023" />
+    <state x="399" y="105" width="738" height="606" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1661581888110" />
+    <state x="209" y="30" key="new project wizard" timestamp="1662429931852">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="209" y="30" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1662429931852" />
     <state x="425" y="185" key="run.anything.popup" timestamp="1659580194330">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -326,6 +354,36 @@
           <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/houserobber2/HouseRobber2.java</url>
           <line>24</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/array/src/ValidAnagram.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/array/src/ValidAnagram.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/TwoSumArray.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/TwoSumArray.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/twosum/TwoSum.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/array/src/FrequentDigit.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

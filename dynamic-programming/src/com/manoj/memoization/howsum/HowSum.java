@@ -8,15 +8,15 @@ import java.util.*;
 * howSum(7, [2, 3, 4, 7]) -> output could be either [3,4] or [7]
  */
 public class HowSum {
-    private static List<Integer> nums = new ArrayList<>(Arrays.asList(1));
+    private static List<Integer> nums = new ArrayList<>(Arrays.asList(3, 2,11, 7, 5));
     private static Map<Integer, List<Integer>> memo = new HashMap<>();
 
     public static void main(String[] args) {
-        System.out.println(howSum(1000, nums, memo));
+        System.out.println(howSum(8, nums, memo));
     }
 
     private static List<Integer> howSum(int targetSum, List<Integer> nums, Map<Integer, List<Integer>> memo) {
-        if(memo.containsKey(targetSum)) return memo.get(targetSum);
+//        if(memo.containsKey(targetSum)) return memo.get(targetSum);
         if(targetSum == 0) return new ArrayList<>();
         if(targetSum < 0) return null;
 
@@ -27,12 +27,12 @@ public class HowSum {
             if(result != null) {
                 List<Integer> returnList = new ArrayList<>(result);
                 returnList.add(num);
-                memo.put(targetSum, returnList);
+//                memo.put(targetSum, returnList);
                 return returnList;
             }
         }
 
-        memo.put(targetSum, null);
+//        memo.put(targetSum, null);
         return null;
     }
 }
