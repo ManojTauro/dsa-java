@@ -7,7 +7,8 @@ public class Fib {
     private static Map<Long, Long> memo = new HashMap<>();
 
     public static void main(String[] args) {
-        callDP();
+        System.out.println(fibRecursive(10));
+//       printFib(5, 1, 1);
     }
 
     private static void callDP() {
@@ -33,5 +34,21 @@ public class Fib {
         memo.put(n, result);
 
         return result;
+    }
+
+    //len - max length of the series
+    //curElement - current element in the series
+    //curLength - Current length of the series
+    private static void printFib(int len, int curElement, int curLength) {
+        if(curElement > len) return;
+        if(curElement <=2) {
+            System.out.print(1+" ");
+//            return;
+        }
+
+        System.out.print(curElement+" ");
+
+        printFib(len,  curElement + 1, curLength+1);
+        printFib(len,  curElement + 2, curLength+1);
     }
 }

@@ -1,3 +1,4 @@
+//https://www.youtube.com/watch?v=SxtxCSfSGlo
 public class SubarrayWithOddProduct {
     private static final int[] input = {12, 15, 7, 3, 25, 6, 2, 1, 1, 7};
 
