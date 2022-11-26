@@ -13,11 +13,11 @@ https://www.youtube.com/watch?v=OyZFFqQtu98&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6Z
 */
 
 public class HowSum {
-    private static List<Integer> nums = new ArrayList<>(Arrays.asList(3, 2,11, 7, 5,1));
+    private static List<Integer> nums = new ArrayList<>(Arrays.asList(2, 3, 4, 7));
     private static Map<Integer, List<Integer>> memo = new HashMap<>();
 
     public static void main(String[] args) {
-        System.out.println(howSum(8, nums, memo));
+        System.out.println(howSum(7, nums, memo));
     }
 
     private static List<Integer> howSum(int targetSum, List<Integer> nums, Map<Integer, List<Integer>> memo) {

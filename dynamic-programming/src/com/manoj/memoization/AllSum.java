@@ -7,7 +7,7 @@ import java.util.List;
 //Look at below video for different implementation - combination sum
 //https://www.youtube.com/watch?v=OyZFFqQtu98&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=9
 public class AllSum {
-    private static List<Integer> nums = new ArrayList<>(Arrays.asList(3, 2, 11, 7, 5,1));
+    private static List<Integer> nums = new ArrayList<>(Arrays.asList(1, 3, 2, 11, 7, 5));
     public static void main(String[] args) {
 
         System.out.println(allSum(5, nums));
