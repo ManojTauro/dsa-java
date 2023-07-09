@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/String/src/UncommonCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/src/FirstUniqueCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/PermutationOptimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary-tree/src/HeightOfTreeBFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/AllSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/AllSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/howsum/HowSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/memoization/howsum/HowSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PermutationOptimal">
+  <component name="RunManager" selected="Application.HeightOfTreeBFS">
     <configuration name="AllSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.AllSum" />
       <module name="dynamic-programming" />
@@ -62,9 +59,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstUniqueCharacter" />
-      <module name="array" />
+    <configuration name="HeightOfTreeBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeightOfTreeBFS" />
+      <module name="binary-tree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeightOfTreeBFS" />
         <item itemvalue="Application.PermutationOptimal" />
         <item itemvalue="Application.AllSum" />
         <item itemvalue="Application.HowSum" />
         <item itemvalue="Application.UncommonCharacters" />
-        <item itemvalue="Application.FirstUniqueCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +174,10 @@
       <workItem from="1665581767696" duration="10000" />
       <workItem from="1668225433708" duration="1824000" />
       <workItem from="1668566716156" duration="108000" />
-      <workItem from="1669431865708" duration="2053000" />
+      <workItem from="1669431865708" duration="2854000" />
+      <workItem from="1669611188667" duration="10000" />
+      <workItem from="1673963309411" duration="39000" />
+      <workItem from="1688909757188" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with array and linked list">
       <created>1658470887525</created>
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665283587037</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implemented Optimal solution for Permutation problem">
+      <created>1669435985337</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669435985337</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,65 +278,26 @@
     <MESSAGE value="Implemented DisappearingElements problem" />
     <MESSAGE value="Implemented Sub array with odd product" />
     <MESSAGE value="CountPairWithGivenSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="CountPairWithGivenSum" />
+    <MESSAGE value="Implemented Optimal solution for Permutation problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Optimal solution for Permutation problem" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1665283586278">
+    <state width="1492" height="117" key="GridCell.Tab.0.bottom" timestamp="1688911009968">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1665283586278" />
-    <state width="458" height="466" key="DebuggerActiveHint" timestamp="1665371245240">
+    <state width="1492" height="117" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1688911009968" />
+    <state width="1492" height="117" key="GridCell.Tab.0.center" timestamp="1688911009968">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="458" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1665371245240" />
-    <state width="1492" height="165" key="GridCell.Tab.0.bottom" timestamp="1669435812492">
+    <state width="1492" height="117" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1688911009968" />
+    <state width="1492" height="117" key="GridCell.Tab.0.left" timestamp="1688911009967">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="165" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1669435812492" />
-    <state width="1492" height="165" key="GridCell.Tab.0.center" timestamp="1669435812492">
+    <state width="1492" height="117" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1688911009967" />
+    <state width="1492" height="117" key="GridCell.Tab.0.right" timestamp="1688911009968">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="165" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1669435812492" />
-    <state width="1492" height="165" key="GridCell.Tab.0.left" timestamp="1669435812491">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1492" height="165" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1669435812491" />
-    <state width="1492" height="165" key="GridCell.Tab.0.right" timestamp="1669435812492">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1492" height="165" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1669435812492" />
-    <state width="1492" height="243" key="GridCell.Tab.1.bottom" timestamp="1665466502695">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1492" height="243" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665466502695" />
-    <state width="1492" height="243" key="GridCell.Tab.1.center" timestamp="1665466502695">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1492" height="243" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1665466502695" />
-    <state width="1492" height="243" key="GridCell.Tab.1.left" timestamp="1665466502695">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1492" height="243" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1665466502695" />
-    <state width="1492" height="243" key="GridCell.Tab.1.right" timestamp="1665466502695">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1492" height="243" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1665466502695" />
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1665283588774">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1665283588774" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1668566813578">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1668566813578" />
-    <state x="399" y="105" width="738" height="606" key="find.popup" timestamp="1661581888110">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="399" y="105" width="738" height="606" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1661581888110" />
-    <state x="209" y="30" key="new project wizard" timestamp="1664857031693">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="209" y="30" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1664857031693" />
+    <state width="1492" height="117" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1688911009968" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
