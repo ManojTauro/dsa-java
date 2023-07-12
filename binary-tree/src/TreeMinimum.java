@@ -3,25 +3,25 @@ import java.util.Queue;
 
 public class TreeMinimum {
     public static void main(String[] args) {
-        NumberNode root = buildTree();
+        TreeNode root = buildTree();
 //        System.out.println(treeMinimum(root));
         System.out.println(treeMinimumBFS(root));
     }
 
-    private static int treeMinimum(NumberNode root) {
+    private static int treeMinimum(TreeNode root) {
         if(root == null) return Integer.MAX_VALUE;
         int treeMin = Math.min(root.val, Math.min(treeMinimum(root.left), treeMinimum(root.right)));
 
         return treeMin;
     }
 
-    private static int treeMinimumBFS(NumberNode root) {
-        Queue<NumberNode> queue = new LinkedList<>();
+    private static int treeMinimumBFS(TreeNode root) {
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         int treeMin = Integer.MAX_VALUE;
 
         while (!queue.isEmpty()) {
-            NumberNode cur = queue.poll();
+            TreeNode cur = queue.poll();
             if(cur.val < treeMin) treeMin = cur.val;
 
             if(cur.left != null) queue.add(cur.left);
@@ -31,13 +31,13 @@ public class TreeMinimum {
         return treeMin;
     }
 
-    private static NumberNode buildTree() {
-        NumberNode a = new NumberNode(5);
-        NumberNode b = new NumberNode(11);
-        NumberNode c = new NumberNode(1);
-        NumberNode d = new NumberNode(4);
-        NumberNode e = new NumberNode(15);
-        NumberNode f = new NumberNode(12);
+    private static TreeNode buildTree() {
+        TreeNode a = new TreeNode(5);
+        TreeNode b = new TreeNode(11);
+        TreeNode c = new TreeNode(1);
+        TreeNode d = new TreeNode(4);
+        TreeNode e = new TreeNode(15);
+        TreeNode f = new TreeNode(12);
 
         a.left = b;
         a.right = c;

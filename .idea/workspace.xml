@@ -2,14 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/binary-tree/src/HeightOfTreeBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary-tree/src/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary-tree/src/ZigZagLevelOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-tree/src/HeightOfTreeBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/HeightOfTreeBFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-tree/src/MaxPathToLeafSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/MaxPathToLeafSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-tree/src/NumberNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary-tree/src/TreeMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/TreeMinimum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,7 +63,7 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeightOfTreeBFS">
+  <component name="RunManager" selected="Application.ZigZagLevelOrderTraversal">
     <configuration name="AllSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.AllSum" />
       <module name="dynamic-programming" />
@@ -66,19 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HowSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.howsum.HowSum" />
-      <module name="dynamic-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.manoj.memoization.howsum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PermutationOptimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PermutationOptimal" />
       <module name="recursion" />
@@ -86,20 +91,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UncommonCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UncommonCharacters" />
-      <module name="String" />
+    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SameTree" />
+      <module name="binary-tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZigZagLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZigZagLevelOrderTraversal" />
+      <module name="binary-tree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZigZagLevelOrderTraversal" />
+        <item itemvalue="Application.SameTree" />
         <item itemvalue="Application.HeightOfTreeBFS" />
         <item itemvalue="Application.PermutationOptimal" />
         <item itemvalue="Application.AllSum" />
-        <item itemvalue="Application.HowSum" />
-        <item itemvalue="Application.UncommonCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +189,8 @@
       <workItem from="1669431865708" duration="2854000" />
       <workItem from="1669611188667" duration="10000" />
       <workItem from="1673963309411" duration="39000" />
-      <workItem from="1688909757188" duration="1707000" />
+      <workItem from="1688909757188" duration="2394000" />
+      <workItem from="1689044592403" duration="6184000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with array and linked list">
       <created>1658470887525</created>
@@ -282,22 +295,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="Implemented Optimal solution for Permutation problem" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1492" height="117" key="GridCell.Tab.0.bottom" timestamp="1688911009968">
+    <state x="524" y="112" key="#xdebugger.evaluate" timestamp="1689045886678">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="117" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1688911009968" />
-    <state width="1492" height="117" key="GridCell.Tab.0.center" timestamp="1688911009968">
+    <state x="524" y="112" key="#xdebugger.evaluate/0.0.1536.816@0.0.1536.816" timestamp="1689045886678" />
+    <state width="381" height="466" key="DebuggerActiveHint" timestamp="1689048764943">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="117" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1688911009968" />
-    <state width="1492" height="117" key="GridCell.Tab.0.left" timestamp="1688911009967">
+    <state width="381" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1689048764943" />
+    <state width="431" height="505" key="GridCell.Tab.0.bottom" timestamp="1689052108271">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="117" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1688911009967" />
-    <state width="1492" height="117" key="GridCell.Tab.0.right" timestamp="1688911009968">
+    <state width="431" height="505" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
+    <state width="431" height="505" key="GridCell.Tab.0.center" timestamp="1689052108271">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1492" height="117" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1688911009968" />
+    <state width="431" height="505" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
+    <state width="431" height="505" key="GridCell.Tab.0.left" timestamp="1689052108271">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="431" height="505" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
+    <state width="431" height="505" key="GridCell.Tab.0.right" timestamp="1689052108271">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="431" height="505" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
+    <state width="431" height="505" key="GridCell.Tab.1.bottom" timestamp="1689052108271">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="431" height="505" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
+    <state width="431" height="505" key="GridCell.Tab.1.center" timestamp="1689052108271">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="431" height="505" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
+    <state width="431" height="505" key="GridCell.Tab.1.left" timestamp="1689052108271">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="431" height="505" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
+    <state width="431" height="505" key="GridCell.Tab.1.right" timestamp="1689052108271">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="431" height="505" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1689044602298">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1689044602298" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -392,12 +433,23 @@
           <line>21</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/binary-tree/src/SameTree.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/binary-tree/src/SameTree.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="cache[99]" />
         <watch expression="((HashMap.Node)((HashMap)map).entrySet().toArray()[0]).getKey()" custom="java.util.HashMap.Node,java.util.HashMap" />
+        <watch expression="nodeq" />
       </configuration>
     </watches-manager>
   </component>
