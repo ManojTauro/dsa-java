@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/binary-tree/src/SameTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary-tree/src/ZigZagLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/ArraySortedAndRotated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary-tree/src/BoundaryTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/graph.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/src/NumberOfProvinces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary-tree/src/HeightOfTreeBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/HeightOfTreeBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary-tree/src/MaxPathToLeafSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/MaxPathToLeafSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary-tree/src/NumberNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary-tree/src/TreeMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/binary-tree/src/TreeMinimum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,30 +62,24 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZigZagLevelOrderTraversal">
-    <configuration name="AllSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.memoization.AllSum" />
-      <module name="dynamic-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.manoj.memoization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.NumberOfProvinces">
+    <configuration name="ArraySortedAndRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraySortedAndRotated" />
+      <module name="array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeightOfTreeBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeightOfTreeBFS" />
+    <configuration name="BoundaryTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoundaryTraversal" />
       <module name="binary-tree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationOptimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PermutationOptimal" />
-      <module name="recursion" />
+    <configuration name="NumberOfProvinces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberOfProvinces" />
+      <module name="graph" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfProvinces" />
+        <item itemvalue="Application.ArraySortedAndRotated" />
+        <item itemvalue="Application.BoundaryTraversal" />
         <item itemvalue="Application.ZigZagLevelOrderTraversal" />
         <item itemvalue="Application.SameTree" />
-        <item itemvalue="Application.HeightOfTreeBFS" />
-        <item itemvalue="Application.PermutationOptimal" />
-        <item itemvalue="Application.AllSum" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +184,8 @@
       <workItem from="1673963309411" duration="39000" />
       <workItem from="1688909757188" duration="2394000" />
       <workItem from="1689044592403" duration="6184000" />
+      <workItem from="1689129640898" duration="5316000" />
+      <workItem from="1690511022665" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with array and linked list">
       <created>1658470887525</created>
@@ -303,42 +298,46 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="381" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1689048764943" />
-    <state width="431" height="505" key="GridCell.Tab.0.bottom" timestamp="1689052108271">
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom" timestamp="1690511667310">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="431" height="505" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
-    <state width="431" height="505" key="GridCell.Tab.0.center" timestamp="1689052108271">
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1690511667310" />
+    <state width="1493" height="199" key="GridCell.Tab.0.center" timestamp="1690511667310">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="431" height="505" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
-    <state width="431" height="505" key="GridCell.Tab.0.left" timestamp="1689052108271">
+    <state width="1493" height="199" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1690511667310" />
+    <state width="1493" height="199" key="GridCell.Tab.0.left" timestamp="1690511667309">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="431" height="505" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
-    <state width="431" height="505" key="GridCell.Tab.0.right" timestamp="1689052108271">
+    <state width="1493" height="199" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1690511667309" />
+    <state width="1493" height="199" key="GridCell.Tab.0.right" timestamp="1690511667310">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="431" height="505" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
-    <state width="431" height="505" key="GridCell.Tab.1.bottom" timestamp="1689052108271">
+    <state width="1493" height="199" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1690511667310" />
+    <state width="430" height="461" key="GridCell.Tab.1.bottom" timestamp="1690511297919">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="431" height="505" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
-    <state width="431" height="505" key="GridCell.Tab.1.center" timestamp="1689052108271">
+    <state width="430" height="461" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1690511297919" />
+    <state width="430" height="461" key="GridCell.Tab.1.center" timestamp="1690511297919">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="431" height="505" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
-    <state width="431" height="505" key="GridCell.Tab.1.left" timestamp="1689052108271">
+    <state width="430" height="461" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1690511297919" />
+    <state width="430" height="461" key="GridCell.Tab.1.left" timestamp="1690511297919">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="431" height="505" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
-    <state width="431" height="505" key="GridCell.Tab.1.right" timestamp="1689052108271">
+    <state width="430" height="461" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1690511297919" />
+    <state width="430" height="461" key="GridCell.Tab.1.right" timestamp="1690511297919">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="431" height="505" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1689052108271" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1689044602298">
+    <state width="430" height="461" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1690511297919" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1690511034126">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1689044602298" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1690511034126" />
+    <state x="209" y="60" key="new project wizard" timestamp="1690511138003">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="209" y="60" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1690511138003" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -442,6 +441,16 @@
           <url>file://$PROJECT_DIR$/binary-tree/src/SameTree.java</url>
           <line>18</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/array/src/ArraySortedAndRotated.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/graph/src/NumberOfProvinces.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
