@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/array/src/ArraySortedAndRotated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary-tree/src/BoundaryTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/src/NumberOfProvinces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/src/CourseSchedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sliding-window/src/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/sliding-window/src/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,17 +59,24 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfProvinces">
-    <configuration name="ArraySortedAndRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraySortedAndRotated" />
-      <module name="array" />
+  <component name="RunManager" selected="Application.CourseSchedule">
+    <configuration name="BipartiteGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BipartiteGraph" />
+      <module name="graph" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoundaryTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoundaryTraversal" />
-      <module name="binary-tree" />
+    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CourseSchedule" />
+      <module name="graph" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestSubstringWithoutRepeatingCharacters" />
+      <module name="sliding-window" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,27 +88,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SameTree" />
-      <module name="binary-tree" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZigZagLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZigZagLevelOrderTraversal" />
-      <module name="binary-tree" />
+    <configuration name="ZeroOneMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZeroOneMatrix" />
+      <module name="graph" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CourseSchedule" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
+        <item itemvalue="Application.BipartiteGraph" />
+        <item itemvalue="Application.ZeroOneMatrix" />
         <item itemvalue="Application.NumberOfProvinces" />
-        <item itemvalue="Application.ArraySortedAndRotated" />
-        <item itemvalue="Application.BoundaryTraversal" />
-        <item itemvalue="Application.ZigZagLevelOrderTraversal" />
-        <item itemvalue="Application.SameTree" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +182,13 @@
       <workItem from="1688909757188" duration="2394000" />
       <workItem from="1689044592403" duration="6184000" />
       <workItem from="1689129640898" duration="5316000" />
-      <workItem from="1690511022665" duration="637000" />
+      <workItem from="1690511022665" duration="878000" />
+      <workItem from="1690898225168" duration="2139000" />
+      <workItem from="1691035020124" duration="2209000" />
+      <workItem from="1691244656962" duration="10000" />
+      <workItem from="1691326165089" duration="1497000" />
+      <workItem from="1691554600532" duration="821000" />
+      <workItem from="1691639961017" duration="2240000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with array and linked list">
       <created>1658470887525</created>
@@ -271,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669435985337</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implemented Optimal solution for ZeroOneMatrix problem">
+      <created>1690900002973</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690900002974</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,53 +297,62 @@
     <MESSAGE value="Implemented Sub array with odd product" />
     <MESSAGE value="CountPairWithGivenSum" />
     <MESSAGE value="Implemented Optimal solution for Permutation problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Optimal solution for Permutation problem" />
+    <MESSAGE value="Implemented Optimal solution for ZeroOneMatrix problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Optimal solution for ZeroOneMatrix problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="112" key="#xdebugger.evaluate" timestamp="1689045886678">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="524" y="112" key="#xdebugger.evaluate/0.0.1536.816@0.0.1536.816" timestamp="1689045886678" />
+    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1690900000689">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1690900000689" />
     <state width="381" height="466" key="DebuggerActiveHint" timestamp="1689048764943">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="381" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1689048764943" />
-    <state width="1493" height="199" key="GridCell.Tab.0.bottom" timestamp="1690511667310">
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom" timestamp="1691726848276">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1690511667310" />
-    <state width="1493" height="199" key="GridCell.Tab.0.center" timestamp="1690511667310">
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1691726848276" />
+    <state width="1493" height="199" key="GridCell.Tab.0.center" timestamp="1691726848276">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1690511667310" />
-    <state width="1493" height="199" key="GridCell.Tab.0.left" timestamp="1690511667309">
+    <state width="1493" height="199" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1691726848276" />
+    <state width="1493" height="199" key="GridCell.Tab.0.left" timestamp="1691726848276">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1690511667309" />
-    <state width="1493" height="199" key="GridCell.Tab.0.right" timestamp="1690511667310">
+    <state width="1493" height="199" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1691726848276" />
+    <state width="1493" height="199" key="GridCell.Tab.0.right" timestamp="1691726848276">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1690511667310" />
-    <state width="430" height="461" key="GridCell.Tab.1.bottom" timestamp="1690511297919">
+    <state width="1493" height="199" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1691726848276" />
+    <state width="429" height="461" key="GridCell.Tab.1.bottom" timestamp="1691641782337">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="430" height="461" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1690511297919" />
-    <state width="430" height="461" key="GridCell.Tab.1.center" timestamp="1690511297919">
+    <state width="429" height="461" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1691641782337" />
+    <state width="429" height="461" key="GridCell.Tab.1.center" timestamp="1691641782337">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="430" height="461" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1690511297919" />
-    <state width="430" height="461" key="GridCell.Tab.1.left" timestamp="1690511297919">
+    <state width="429" height="461" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1691641782337" />
+    <state width="429" height="461" key="GridCell.Tab.1.left" timestamp="1691641782337">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="430" height="461" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1690511297919" />
-    <state width="430" height="461" key="GridCell.Tab.1.right" timestamp="1690511297919">
+    <state width="429" height="461" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1691641782337" />
+    <state width="429" height="461" key="GridCell.Tab.1.right" timestamp="1691641782337">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="430" height="461" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1690511297919" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1690511034126">
+    <state width="429" height="461" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1691641782337" />
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1690900006051">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1690511034126" />
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1690900006051" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1691639980814">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1691639980814" />
     <state x="209" y="60" key="new project wizard" timestamp="1690511138003">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -346,11 +365,6 @@
           <url>file://$PROJECT_DIR$/linked-list/src/SinglyLinkedList.java</url>
           <line>79</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sliding-window/src/LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/dynamic-programming/src/com/manoj/tabulation/fib/Fib.java</url>
@@ -451,6 +465,16 @@
           <url>file://$PROJECT_DIR$/graph/src/NumberOfProvinces.java</url>
           <line>49</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/graph/src/ZeroOneMatrix.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/graph/src/CourseSchedule.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
