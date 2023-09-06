@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graph/src/CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/src/TopoSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sliding-window/src/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/sliding-window/src/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,31 +38,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2CHrhz52pZYfnfsLj2Cx5I2S8rF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/linked-list/src" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Studies\Java\dsa-java\linked-list\src" />
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CourseSchedule">
+  <component name="RunManager" selected="Application.TopoSort">
     <configuration name="BipartiteGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BipartiteGraph" />
       <module name="graph" />
@@ -81,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfProvinces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberOfProvinces" />
+    <configuration name="TopoSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TopoSort" />
       <module name="graph" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopoSort" />
         <item itemvalue="Application.CourseSchedule" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.BipartiteGraph" />
         <item itemvalue="Application.ZeroOneMatrix" />
-        <item itemvalue="Application.NumberOfProvinces" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +124,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -299,64 +307,6 @@
     <MESSAGE value="Implemented Optimal solution for Permutation problem" />
     <MESSAGE value="Implemented Optimal solution for ZeroOneMatrix problem" />
     <option name="LAST_COMMIT_MESSAGE" value="Implemented Optimal solution for ZeroOneMatrix problem" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="524" y="112" key="#xdebugger.evaluate" timestamp="1689045886678">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="524" y="112" key="#xdebugger.evaluate/0.0.1536.816@0.0.1536.816" timestamp="1689045886678" />
-    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1690900000689">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1690900000689" />
-    <state width="381" height="466" key="DebuggerActiveHint" timestamp="1689048764943">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="381" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1689048764943" />
-    <state width="1493" height="199" key="GridCell.Tab.0.bottom" timestamp="1691726848276">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1691726848276" />
-    <state width="1493" height="199" key="GridCell.Tab.0.center" timestamp="1691726848276">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1691726848276" />
-    <state width="1493" height="199" key="GridCell.Tab.0.left" timestamp="1691726848276">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1691726848276" />
-    <state width="1493" height="199" key="GridCell.Tab.0.right" timestamp="1691726848276">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="199" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1691726848276" />
-    <state width="429" height="461" key="GridCell.Tab.1.bottom" timestamp="1691641782337">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="429" height="461" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1691641782337" />
-    <state width="429" height="461" key="GridCell.Tab.1.center" timestamp="1691641782337">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="429" height="461" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1691641782337" />
-    <state width="429" height="461" key="GridCell.Tab.1.left" timestamp="1691641782337">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="429" height="461" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1691641782337" />
-    <state width="429" height="461" key="GridCell.Tab.1.right" timestamp="1691641782337">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="429" height="461" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1691641782337" />
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1690900006051">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1690900006051" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1691639980814">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1691639980814" />
-    <state x="209" y="60" key="new project wizard" timestamp="1690511138003">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="209" y="60" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1690511138003" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
