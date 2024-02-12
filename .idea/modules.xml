@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/dynamic-programming/dynamic-programming.iml" filepath="$PROJECT_DIR$/dynamic-programming/dynamic-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/graph/graph.iml" filepath="$PROJECT_DIR$/graph/graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/linked-list/linked-list.iml" filepath="$PROJECT_DIR$/linked-list/linked-list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/math/math.iml" filepath="$PROJECT_DIR$/math/math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsoft/microsoft.iml" filepath="$PROJECT_DIR$/microsoft/microsoft.iml" />
       <module fileurl="file://$PROJECT_DIR$/recursion/recursion.iml" filepath="$PROJECT_DIR$/recursion/recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/sliding-window/sliding-window.iml" filepath="$PROJECT_DIR$/sliding-window/sliding-window.iml" />
       <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
