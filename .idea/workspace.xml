@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="Implemented Triangle from Coding Ninjas">
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/CountSubSetsWithSumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/TriangleLC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math/math.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math/src/GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microsoft/microsoft.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microsoft/src/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microsoft/src/Task2.java" afterDir="false" />
+    <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="Implemented microsoft OA questions">
+      <change afterPath="$PROJECT_DIR$/amazon/amazon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amazon/src/ReverseBinaryString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amazon/src/SolarElectricBulbsSDE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/Ch 01. Arrays and Strings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/cracking-the-coding-interview.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microsoft/src/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/microsoft/src/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +77,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Manu/Desktop/Manoj/Projects/dsa-java&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Manu/Desktop/Manoj/Studies/Learning/kotlin&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -87,61 +91,49 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task2">
-    <configuration name="CountSubSetsWithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.CountSubSetsWithSumK" />
-      <module name="dynamic-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.manoj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.TwoSum">
+    <configuration name="Codec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codec" />
+      <module name="array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GCD" />
-      <module name="math" />
+    <configuration name="Question_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question_11" />
+      <module name="Ch 01. Arrays and Strings" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1" />
-      <module name="microsoft" />
+    <configuration name="Question_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question_12" />
+      <module name="Ch 01. Arrays and Strings" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task2" />
-      <module name="microsoft" />
+    <configuration name="Question_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question_13" />
+      <module name="Ch 01. Arrays and Strings" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleLC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.manoj.TriangleLC" />
-      <module name="dynamic-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.manoj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoSum" />
+      <module name="array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.GCD" />
-        <item itemvalue="Application.CountSubSetsWithSumK" />
-        <item itemvalue="Application.TriangleLC" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.Question_13" />
+        <item itemvalue="Application.Question_12" />
+        <item itemvalue="Application.Question_11" />
+        <item itemvalue="Application.Codec" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703326037748</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Implemented microsoft OA questions">
+      <option name="closed" value="true" />
+      <created>1707740522712</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1707740522712</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +426,8 @@
     <MESSAGE value="Implemented Fib using DP" />
     <MESSAGE value="Implemented CanSum and HowSum using DP" />
     <MESSAGE value="Implemented Triangle from Coding Ninjas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Triangle from Coding Ninjas" />
+    <MESSAGE value="Implemented microsoft OA questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented microsoft OA questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -568,8 +569,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/microsoft/src/Task1.java</url>
-          <line>28</line>
+          <line>31</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/graph/src/TopoSortBFS.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/amazon/src/ReverseBinaryString.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/array/src/Codec.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_13.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/array/src/TwoSum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

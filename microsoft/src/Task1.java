@@ -9,10 +9,13 @@ public class Task1 {
     private static final String S2 = "NAANAAXNABABYNNBZ";
     private static final String S3 = "QABAAAWOBL";
 
+    private static final String S4 = "SBANANNAANB";
+
     public static void main(String[] args) {
         System.out.println(solution(S1));
         System.out.println(solution(S2));
         System.out.println(solution(S3));
+        System.out.println(solution(S4));
     }
 
     private static int solution(String s) {
