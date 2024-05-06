@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="Implemented microsoft OA questions">
-      <change afterPath="$PROJECT_DIR$/amazon/amazon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amazon/src/ReverseBinaryString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amazon/src/SolarElectricBulbsSDE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/src/Codec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/src/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/Ch 01. Arrays and Strings.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/cracking-the-coding-interview.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="Implemented basic algorithms on Array and Hashing">
+      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/heap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/src/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/src/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microsoft/src/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/microsoft/src/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,49 +86,49 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSum">
-    <configuration name="Codec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codec" />
-      <module name="array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question_11" />
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Question_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question_14" />
       <module name="Ch 01. Arrays and Strings" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question_12" />
+    <configuration name="Question_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question_15" />
       <module name="Ch 01. Arrays and Strings" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question_13" />
+    <configuration name="Question_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question_16" />
       <module name="Ch 01. Arrays and Strings" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoSum" />
-      <module name="array" />
+    <configuration name="Question_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question_17" />
+      <module name="Ch 01. Arrays and Strings" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="heap" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.Question_13" />
-        <item itemvalue="Application.Question_12" />
-        <item itemvalue="Application.Question_11" />
-        <item itemvalue="Application.Codec" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Question_17" />
+        <item itemvalue="Application.Question_16" />
+        <item itemvalue="Application.Question_15" />
+        <item itemvalue="Application.Question_14" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707740522712</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Implemented basic algorithms on Array and Hashing">
+      <option name="closed" value="true" />
+      <created>1714386820174</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1714386820174</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +430,8 @@
     <MESSAGE value="Implemented CanSum and HowSum using DP" />
     <MESSAGE value="Implemented Triangle from Coding Ninjas" />
     <MESSAGE value="Implemented microsoft OA questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented microsoft OA questions" />
+    <MESSAGE value="Implemented basic algorithms on Array and Hashing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented basic algorithms on Array and Hashing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -596,6 +600,46 @@
           <url>file://$PROJECT_DIR$/array/src/TwoSum.java</url>
           <line>19</line>
           <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_14.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_15.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_16.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cracking-the-coding-interview/Ch 01. Arrays and Strings/src/Question_17.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/heap/src/MaxHeap.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/heap/src/MaxHeap.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/heap/src/MaxHeap.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/heap/src/MaxHeap.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
