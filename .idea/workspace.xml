@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="Implemented MaxHeap">
-      <change afterPath="$PROJECT_DIR$/array/src/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math/src/FactorialNumbers.java" afterDir="false" />
+    <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="Implemented sum of square numbers">
+      <change afterPath="$PROJECT_DIR$/array/src/MergeOverlappingIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/SubArraySumEqualsK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,9 @@
     "Application.Codec.executor": "Run",
     "Application.FactorialNumbers.executor": "Run",
     "Application.GCD.executor": "Run",
+    "Application.MergeOverlappingIntervals.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
+    "Application.SubArraySumEqualsK.executor": "Run",
     "Application.SumOfSquareNumbers.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -86,14 +88,7 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpiralMatrix">
-    <configuration name="Codec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codec" />
-      <module name="array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeOverlappingIntervals">
     <configuration name="FactorialNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FactorialNumbers" />
       <module name="math" />
@@ -108,6 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeOverlappingIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeOverlappingIntervals" />
+      <module name="array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SpiralMatrix" />
       <module name="array" />
@@ -115,20 +117,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfSquareNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumOfSquareNumbers" />
-      <module name="two-pointer" />
+    <configuration name="SubArraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubArraySumEqualsK" />
+      <module name="array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeOverlappingIntervals" />
+        <item itemvalue="Application.SubArraySumEqualsK" />
         <item itemvalue="Application.SpiralMatrix" />
         <item itemvalue="Application.FactorialNumbers" />
         <item itemvalue="Application.GCD" />
-        <item itemvalue="Application.SumOfSquareNumbers" />
-        <item itemvalue="Application.Codec" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +391,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715025144561</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Implemented leetcode spiral matrix">
+      <option name="closed" value="true" />
+      <created>1718965448392</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1718965448392</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Implemented sum of square numbers">
+      <option name="closed" value="true" />
+      <created>1718965483976</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1718965483976</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +458,9 @@
     <MESSAGE value="Implemented microsoft OA questions" />
     <MESSAGE value="Implemented basic algorithms on Array and Hashing" />
     <MESSAGE value="Implemented MaxHeap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented MaxHeap" />
+    <MESSAGE value="Implemented leetcode spiral matrix" />
+    <MESSAGE value="Implemented sum of square numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented sum of square numbers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,6 +679,21 @@
           <url>file://$PROJECT_DIR$/array/src/SpiralMatrix.java</url>
           <line>14</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/array/src/SubArraySumEqualsK.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/array/src/MergeOverlappingIntervals.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/array/src/MergeOverlappingIntervals.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
