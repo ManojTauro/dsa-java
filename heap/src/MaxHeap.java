@@ -79,7 +79,7 @@ public class MaxHeap {
         if (children.size() == 1) return children.get(0);
 
         int leftValue = children.get(0)[0];
-        int rightValue = children.get(0)[1];
+        int rightValue = children.get(1)[0];
 
         if (leftValue > rightValue) return children.get(0);
         else return children.get(1);
