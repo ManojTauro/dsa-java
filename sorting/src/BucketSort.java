@@ -29,6 +29,6 @@ public class BucketSort {
             sortedList.addAll(bucket);
         }
 
-        System.out.println("Sorted List -> " + sortedList.toString());
+        System.out.println("Sorted List -> " + sortedList);
     }
 }
