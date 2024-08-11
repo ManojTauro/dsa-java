@@ -1,4 +1,4 @@
-package com.manoj.hackerrank;
+package strings;
 
 import java.util.stream.IntStream;
 

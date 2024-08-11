@@ -1,4 +1,4 @@
-package com.manoj.hackerrank;
+package strings;
 
 public class CaesarCipher {
     public static void main(String[] args) {
