@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="Implemented solutions to Hackerrank problems">
-      <change afterPath="$PROJECT_DIR$/OA/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OA/src/main/java/IBM/DominatingXORPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binary-search/src/main/java/LowerBound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/src/main/java/strings/FunnyString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="26d1d2af-4302-4637-8820-604cc665d480" name="Default Changelist" comment="Implemented LC 1482">
+      <change afterPath="$PROJECT_DIR$/array/src/LongestConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary-search/src/main/java/LC1011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/src/PrimsAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/src/main/java/maths/CuttingPaperSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/src/main/java/maths/LeonardoPrimeFactors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/hackerrank/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/src/main/java/strings/CaesarCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/hackerrank/MarsExploration.java" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/src/main/java/strings/MarsExploration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/hackerrank/Pangrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/src/main/java/strings/Pangrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-programming/src/com/manoj/hackerrank/WeightedUniformString.java" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/src/main/java/strings/WeightedUniformString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +46,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ManojTauro&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/manu310397/dsa-java.git&quot;,
+    &quot;accountId&quot;: &quot;657e4634-5ac5-46bb-ba39-246d17c2a999&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -72,21 +79,32 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.CaesarCipher.executor": "Run",
+    "Application.CeilTheFloor.executor": "Debug",
     "Application.Codec.executor": "Run",
     "Application.CrawlerLogFolder.executor": "Run",
+    "Application.CuttingPaperSquares.executor": "Run",
     "Application.DominatingXORPairs.executor": "Debug",
+    "Application.Dominoes.executor": "Run",
+    "Application.ElectronicsShop.executor": "Run",
     "Application.FactorialNumbers.executor": "Run",
     "Application.FunnyString.executor": "Run",
     "Application.GCD.executor": "Run",
+    "Application.LC1011.executor": "Debug",
+    "Application.LC1482.executor": "Run",
     "Application.LIS.executor": "Debug",
+    "Application.LeonardoPrimeFactors.executor": "Run",
+    "Application.LongestConsecutive.executor": "Run",
     "Application.LowerBound.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MarsExploration.executor": "Run",
     "Application.MaximumSubArrayProduct.executor": "Run",
     "Application.MergeOverlappingIntervals.executor": "Run",
     "Application.MergeSortedArrays.executor": "Run",
     "Application.MissingAndRepeating.executor": "Run",
     "Application.Pangrams.executor": "Run",
+    "Application.PrimsAlgo.executor": "Run",
     "Application.Runner.executor": "Run",
+    "Application.SearchInRotatedSortedArray2.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
     "Application.SubArraySumEqualsK.executor": "Run",
@@ -100,7 +118,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Manu/Desktop/Manoj/Studies/Learning/kotlin",
+    "last_opened_file_path": "/home/manu2931/Desktop/learning/java/reactive-systems-in-java",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -113,20 +131,26 @@
       <recent name="E:\Studies\Java\dsa-java\array\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CeilTheFloor">
-    <configuration name="CeilTheFloor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CeilTheFloor" />
-      <module name="binary-search" />
+  <component name="RunManager" selected="Application.PrimsAlgo">
+    <configuration name="CuttingPaperSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maths.CuttingPaperSquares" />
+      <module name="hackerrank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DominatingXORPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IBM.DominatingXORPairs" />
+    <configuration name="Dominoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AutoDesk.Dominoes" />
       <module name="OA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IBM.*" />
+          <option name="PATTERN" value="AutoDesk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +158,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunnyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.FunnyString" />
-      <module name="hackerrank" />
+    <configuration name="LongestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestConsecutive" />
+      <module name="array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxNetworkRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AutoDesk.MaxNetworkRank" />
+      <module name="OA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="AutoDesk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,33 +178,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowerBound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LowerBound" />
-      <module name="binary-search" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeightedUniformString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.WeightedUniformString" />
-      <module name="hackerrank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="PrimsAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimsAlgo" />
+      <module name="graph" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CeilTheFloor" />
-        <item itemvalue="Application.LowerBound" />
-        <item itemvalue="Application.DominatingXORPairs" />
-        <item itemvalue="Application.FunnyString" />
-        <item itemvalue="Application.WeightedUniformString" />
+        <item itemvalue="Application.PrimsAlgo" />
+        <item itemvalue="Application.LongestConsecutive" />
+        <item itemvalue="Application.Dominoes" />
+        <item itemvalue="Application.MaxNetworkRank" />
+        <item itemvalue="Application.CuttingPaperSquares" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +508,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723201668022</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Implemented solutions to binary search problems">
+      <option name="closed" value="true" />
+      <created>1723367668834</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1723367668834</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Implemented Search In Rotated sorted array 2 leet code solution">
+      <option name="closed" value="true" />
+      <created>1723707815727</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1723707815727</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Implemented LC 1482">
+      <option name="closed" value="true" />
+      <created>1723882312443</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1723882312443</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,9 +563,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Implemented binary tree problems" />
-    <MESSAGE value="Implemented House robber 2" />
-    <MESSAGE value="Implemented Frequent digit problem" />
     <MESSAGE value="Implemented DisappearingElements problem" />
     <MESSAGE value="Implemented Sub array with odd product" />
     <MESSAGE value="CountPairWithGivenSum" />
@@ -546,7 +585,10 @@
     <MESSAGE value="implemented Maxiumum sub array product" />
     <MESSAGE value="Implemented optimal solution to find GCD of 2 numbers" />
     <MESSAGE value="Implemented solutions to Hackerrank problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented solutions to Hackerrank problems" />
+    <MESSAGE value="Implemented solutions to binary search problems" />
+    <MESSAGE value="Implemented Search In Rotated sorted array 2 leet code solution" />
+    <MESSAGE value="Implemented LC 1482" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented LC 1482" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -834,6 +876,62 @@
           <url>file://$PROJECT_DIR$/OA/src/main/java/IBM/DominatingXORPairs.java</url>
           <line>16</line>
           <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/binary-search/src/main/java/CeilTheFloor.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/binary-search/src/main/java/SearchInRotatedSortedArray2.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/binary-search/src/main/java/LC1482.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/binary-search/src/main/java/LC1011.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/binary-search/src/main/java/LC1011.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hackerrank/src/main/java/maths/LeonardoPrimeFactors.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hackerrank/src/main/java/maths/LeonardoPrimeFactors.java</url>
+          <line>25</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hackerrank/src/main/java/maths/CuttingPaperSquares.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/array/src/LongestConsecutive.java</url>
+          <line>8</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/graph/src/PrimsAlgo.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
